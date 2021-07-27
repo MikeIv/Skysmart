@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [![version](https://img.shields.io/travis/MikeIv/gulp?style=plastic)]()
 
 
@@ -57,3 +58,6 @@ git clone git@github.com:MikeIv/Skysmart.git
 <a href="https://mikeivanov.ru/">
 <img align="left" width="70" height="auto" alt="Лого" src="https://mikeiv.github.io/portfolio/img/my-logo.svg">
 </a>
+=======
+# Skysmart
+>>>>>>> 287d32a (Initial commit)
