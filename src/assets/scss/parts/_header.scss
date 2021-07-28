@@ -1,0 +1,61 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 8.9rem;
+
+  font-family: $mainFont;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+  background-color: $white;
+
+  z-index: 3;
+
+
+  @media screen and (min-width: 768px) {
+
+  }
+
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 15rem;
+  height: 4rem;
+
+  background-color: $green;
+}
+
+.header_app__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &--dt {
+    display: none;
+  }
+
+  @media screen and (min-width: 768px) {
+
+  }
+}
+
+
+
