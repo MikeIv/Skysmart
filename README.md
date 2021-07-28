@@ -1,19 +1,59 @@
-# skysmart
+[![version](https://img.shields.io/travis/MikeIv/gulp?style=plastic)]()
 
-## Project setup
+
+# Тестовый проект для Skysmart
+
+![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/budfy/easy-webdev-startpack?style=plastic)
+
+
+## Требования к проекту:
+- адаптивная кроссбраузерная верстка;
+- использование препроцессора SCSS;
+- использование Vue, @vue/cli;
+
+
+---
+### Для просмотра проекта
+#### Клонируйте репозиторий на свой компьютер
+
+
 ```
-npm install
+git clone git@github.com:MikeIv/Skysmart.git
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Команда клонирует репозиторий на ваш компьютер и подготовит всё необходимое для старта работы.
 
-### Compiles and minifies for production
-```
-npm run build
-```
+#### Установка
+- Установить зависимости
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+  `$ npm install`
+
+
+- Просмотр в режиме разработки
+
+  `$ npm run serve`
+
+
+- Сборка проекта
+
+  `$ npm run build`
+
+
+---
+
+## Трехническое задание:
+- Cверстать страницу и сделать небольшую анимацию
+- Меню зафиксировано сверху экрана при скролле;
+- При наведении на пункт меню, пункт выделяется жирным и подчеркивается с эффектом: подчеркивание появляется постепенно слева направо;
+- Меню раскрывается при наведении;
+- в мобильной версии Меню открывается на весь экран при нажатии на «гамбургер», выезжая слева; закрывается по нажатию на крестик;
+- все элементы шапки являются ссылками;
+- заголовки блоков являются ссылками;
+
+
+
+---
+
+<a href="https://mikeivanov.ru/">
+<img align="left" width="70" height="auto" alt="Лого" src="https://mikeiv.github.io/portfolio/img/my-logo.svg">
+</a>
