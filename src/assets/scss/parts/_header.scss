@@ -117,6 +117,17 @@
   height: 100vh;
 
   background-color: $lightyellow;
+
+  animation: slide-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes slide-right {
+  0% {
+    transform: translateX(200px);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .header__mob-nav-list {
@@ -145,8 +156,12 @@
 }
 
 .header__mob-nav-link {
+  display: flex;
+  align-items: center;
+
   @include link;
 
-  height: 100%;
   color: $orange;
+
+  outline: none;
 }
