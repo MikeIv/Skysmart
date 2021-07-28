@@ -28,16 +28,18 @@
 	font-size: #{$size};
 	line-height: #{$lheight};
 	color: #{$color};
+}
 
+@mixin link ($size:"1.8rem", $fw:"400", $lheight:"2.4rem", $color: "#000000") {
+	font-size: #{$size};
+	font-weight: #{$fw};
+	line-height: #{$lheight};
+	color: #{$color};
+	text-decoration: none;
 }
 
 
 
-@mixin bg ($size:"contain", $position: "center") {
-	background-size: #{$size};
-	background-position: #{$position};
-	background-repeat: no-repeat;
-}
 
 // btn
 @mixin btn ($width:"18rem", $height:"4rem", $fs:"1.4rem") {
@@ -72,6 +74,11 @@
 	&:hover {
 		background-color: $darkvue;
 	}
+}
+
+@mixin no-btn () {
+	border: none;
+	background-color: transparent;
 }
 
 @mixin btn_anim($scaleMax:1.05, $scaleMin:0.95) {
